@@ -66,6 +66,7 @@ nav li {
   font-weight: 400;
   font-size: 16px;
   margin-bottom: 30px;
+  line-height: 30px;
 }
 #btn-contact {
   background-color: #fff8f3;
@@ -113,3 +114,41 @@ main {
   font-weight: 800;
   color: #474747;
 }
+/* what i do styles */
+.what-i-do {
+  margin-bottom: 15px;
+  background-color: white;
+  padding: 130px 150px;
+  text-align: center;
+  font-weight: 400;
+}
+/* my skills section */
+.my-skills {
+  display: flex;
+  gap: 20px;
+}
+.skill {
+  padding: 30px;
+  height: 290px;
+  margin-right: 20px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+  margin-bottom: 130px;
+}
+.skill:hover{
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+.skill-title {
+  margin-top: 30px;
+  font-weight: 700;
+  font-size: 20px;
+  color: #181818;
+}
+.skill-description {
+  line-height: 28px;
+  margin-top: 20px;
+  font-weight: 400;
+  font-size: 14px;
+  color: #757575;
+}
+/* resume styles */
