@@ -1,0 +1,115 @@
+* {
+  margin: 0px;
+  font-family: "Open Sans", sans-serif;
+}
+.text-primary {
+  color: #fd6e0a;
+}
+.btn-primary {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 700;
+  height: 64px;
+  background: #fd6e0a;
+  padding: 18px 35px;
+  border: 0;
+  border-radius: 5px;
+  text-align: center;
+  margin-right: 47px;
+}
+.header {
+  height: 800px;
+  background: #fff8f3;
+  background-image: url(../images/header_bg.png), url(../images/developer.png);
+  background-repeat: no-repeat;
+  background-position: bottom right, left;
+}
+/* header and navigation styles */
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 150px 100px 150px;
+}
+.nav-title {
+  font-weight: 800;
+  font-size: 45px;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+}
+nav li {
+  list-style: none;
+  margin-right: 50px;
+}
+/* Banner styles */
+.banner {
+  display: flex;
+  margin: 0 150px;
+  justify-content: space-between;
+  align-items: center;
+}
+.banner-title {
+  color: #474747;
+  font-size: 45px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.author-name {
+  color: #181818;
+  font-size: 75px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.banner-description {
+  color: #757575;
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+#btn-contact {
+  background-color: #fff8f3;
+  border: 2px solid red;
+  color: #fd6e0a;
+  border: 1px solid #fd6e0a;
+}
+/* main seciton styles */
+main {
+  max-width: 1140px;
+  margin-right: 230px;
+  margin-left: 230px;
+}
+
+/* about section styles */
+.about-me {
+  height: 250px;
+  margin-top: 130px;
+  background: #fff8f3;
+  text-align: center;
+  border-radius: 10px;
+  padding: 130px 150px;
+}
+.section-title {
+  text-align: center;
+  padding-bottom: 30px;
+  font-weight: 700;
+  font-size: 35px;
+  color: #181818;
+}
+.about-info-container {
+  display: flex;
+  justify-content: space-around;
+}
+.info-title {
+  font-weight: 400;
+  font-size: 18px;
+  margin-top: 30px;
+  text-align: center;
+  color: #757575;
+}
+.info-description {
+  font-weight: 900;
+  font-size: 17px;
+  font-weight: 800;
+  color: #474747;
+}
